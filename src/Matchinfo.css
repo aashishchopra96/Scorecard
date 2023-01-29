@@ -1,0 +1,89 @@
+.container {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    background-color: #282c34;
+
+    justify-items: left;
+    box-sizing: border-box;
+    width: 520px;
+    position: relative;
+    left: 600px;
+    top: -400px;
+    /* color: bisque; */
+    border: 1px;
+    /* border-color: rgb(221, 14, 14); */
+    border-style: solid;
+
+
+    /* border-width: 20px; */
+    box-shadow: slategrey, 2px;
+
+}
+
+.header {
+    text-align: center;
+    color: lavender;
+    /* font-size:; */
+    /* font-weight: bold; */
+    /* background-color: brown; */
+
+}
+
+
+.date {
+    position: relative;
+    left: 460px;
+    bottom: 18px;
+    font-size: x-small;
+    color: #61dafb;
+}
+
+
+.matchType{
+    position: relative;
+    /* left: 460px; */
+    /* bottom: 25px; */
+    text-align:center;
+text-transform: uppercase ;
+    font-size:medium;
+    color: #61dafb;
+    
+}
+
+.versus {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(25, 24, 26);
+    background-color: #61dafb;
+    text-indent: 5px;
+    border: 1px solid #282c34;
+
+    /* height: 40px; */
+}
+
+.team {
+    box-sizing: border-box;
+    width: 498px;
+    position: relative;
+    left: 10px;
+    text-indent: 5px;
+    color: #61dafb;
+    border-bottom: 1px solid #61dafb;
+
+}
+
+.teamscore {
+    position: relative;
+    /* left: 360px; */
+    bottom: 60px;
+    text-align: right;
+    right: 15px;
+    color: #61dafb;
+
+}
+.status{
+    position: relative;
+    bottom: 45px;
+    text-align: center;
+
+}
