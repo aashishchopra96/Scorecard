@@ -15,7 +15,7 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -35,4 +35,15 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.MatchList_Btn{
+  text-align: center;
+  position:relative;
+  bottom: 80px;
+}
+.ToDoList_Btn{
+  text-align: center;
+  position:relative;
+  bottom: 80px;
 }

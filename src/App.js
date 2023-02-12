@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Matchlists from './Matchlists';
-import Matchinfo from "./Matchinfo";
-
+import ToDoList from './ToDoList/ToDoList'
+import { useState } from 'react';
 
 function App() {
 
-
+  const [matchList, setMatchList] = useState(0)
+  const [toDoList, setToDoList] = useState(0)
 
   return (
     <div>
@@ -25,12 +26,17 @@ function App() {
             Learn React
           </a>
         </header>
-      </div>
-      <div>
+        <button className='MatchList_Btn' onClick={() => setMatchList(1, setToDoList(0))}>Match List</button>
+        <button className='ToDoList_Btn' onClick={() => setToDoList(1, setMatchList(0))}>ToDo List</button>
+        <div>
+        </div>
+
         <aside>
-          <Matchlists />
-          
-          
+
+          {matchList ? <Matchlists /> : null}
+          {toDoList ? <ToDoList /> : null}
+
+
         </aside>
       </div>
     </div>
