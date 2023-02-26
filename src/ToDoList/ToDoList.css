@@ -30,14 +30,29 @@
 }
 
 .input_container {
-    color: rgb(46, 187, 17);
+    color: #61dafb;
     /* font-size:larger; */
     /* font-size: medium; */
+}
+.List_name_box{
+    /* background-color: #282c34; */
+    position: relative;
+    top: 10px;
+    align-items:baseline;
+    align-content: flex-start;
+    right: 88px;
+
+}
+
+.List_name{
+    background-color: #282c34;
+    /* color: white; */
+
 }
 
 .item_list {
     /* display: flexbox; */
-align-content: center;
+    align-content: center;
     position: relative;
     top: 15px;
     background-color: #61dafb;
@@ -45,18 +60,28 @@ align-content: center;
     min-height: 25px;
     text-align: justify;
     text-indent: 5px;
-    align-items: center;
+    /* align-items: center; */
+    border: 5px solid #282c34 ;
 }
-.list_button{
+
+.list_button {
     /* display: flexbox; */
-    height:();
+    height: ();
     width: 50px;
     position: absolute;
     bottom: 1px;
     left: 350px;
 
 }
-.item_text{
+
+.item_text {
     width: 300px;
 
+}
+
+.clear_All{
+    background-color: black;
+    position: relative;
+    top: 15px;
+    color: #61dafb;
 }
